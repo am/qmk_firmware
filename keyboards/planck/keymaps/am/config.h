@@ -39,3 +39,9 @@
 
 // Most tactile encoders have detents every 4 stages
 #define ENCODER_RESOLUTION 4
+
+// how many taps before triggering the toggle
+ #define TAPPING_TOGGLE 2
+
+// how long before a tap becomes a hold
+#define TAPPING_TERM 150

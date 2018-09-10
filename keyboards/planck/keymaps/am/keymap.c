@@ -27,7 +27,7 @@ enum planck_keycodes {
 };
 
 #define LOWER MO(_LOWER)
-#define RAISE MO(_RAISE)
+#define RAISE TT(_RAISE)
 
 // Taps
 #define CTL_ESC CTL_T(KC_ESC)            // Tap for Esc, hold for Ctr
